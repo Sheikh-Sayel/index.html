@@ -1,0 +1,369 @@
+body{
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+
+.con{
+    background-color: rgb(18, 158, 158);
+    width: 100%;
+    height: 60px;
+    font-family: sans-serif;
+    
+   
+
+}
+.con ul{
+    display: inline-flex;
+}
+.con ul li {
+    display: inline-flex;
+}
+.con2{
+    color: aliceblue;
+  
+    list-style: none;
+    text-indent: 10px;
+
+
+}
+.con2 .con21:hover{
+    color: rgb(23, 209, 147);
+}
+.con2 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.con1{
+    color: aliceblue;
+    list-style: none;
+    padding-left: 600px;
+    
+
+}
+.con1 li :hover{
+    color: aqua;
+    transition: circle;
+
+}
+.con1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+
+.header{
+    background-color:white;
+    max-width: 100%;
+    max-height: 50px;
+
+}
+.num ul li{
+    display: inline-flex;
+    
+}
+.num ul li a{
+    text-decoration: none;
+    color: black;
+}
+.num ul li ul{
+    display: none;
+    color: rgb(207, 198, 198);
+    border: 1px solid;
+    text-align: center;
+    float: inline-end;
+    font-size: 20px bold;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    
+
+}
+.num ul li:hover > ul{
+    display: block;
+
+}
+.header .num1{
+    opacity: 50%;
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 15px bold;
+}
+.header .num2{
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 15px bold;
+}
+.header .num3{
+    opacity: 90%;
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 15px bold;
+}
+.header .num4{
+    opacity: 90%;
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 15px bold;
+    
+}
+.header .num5{
+    padding-left: 250px;
+    
+    font-family: sans-serif;
+    font-size: 15px bold;
+
+}
+.header .num6{
+    text-indent: 10px;
+
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px bold;
+    border-style: solid;
+    border-radius: 20%;
+    background-color:rgb(18, 89, 221);
+    text-align: center;
+
+
+}
+.header .num7{
+     padding-left: 20px;
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 15px bold;
+    
+}
+
+
+
+
+
+
+section{
+
+}
+section .sec h1{
+    font-size: 85px;
+    padding-top: 30px;
+}
+section .sec p{
+    font-size: 25px;
+    
+}
+section .sec {
+    
+    font-family: sans-serif;
+    width: 80%;
+    height:500px;
+    background-color: black;
+    color:white;
+    position: absolute;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+
+section .sect{
+    display: inline-flex;
+    padding-left: 150px;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+     
+}
+
+
+
+
+<!--article-->
+.art{
+    text-align: center;
+}
+.art .arti{
+    text-align: center;
+}
+.art .arti h1{
+    color: coral;
+}
+.art .arti h2{
+    font-size: bold;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+.book{
+    display: inline-flex;
+    padding-left: 70px;
+    text-align: center;
+    color:rgb(110, 100, 100);
+    width: 100%;
+    height: 500px;
+
+}
+
+.book .img1{
+    max-width: 300px;
+    max-height: 400px;
+
+}
+.book:hover{
+    color: aqua;
+    
+}
+
+.book .img2{
+    max-width: 300px;
+    max-height: 400px;
+
+}
+.book .img3{
+    max-width: 300px;
+    max-height: 400px;
+
+}
+.book .img4{
+    max-width: 300px;
+    max-height: 400px;
+
+}
+.srt h1{
+    text-align: center;
+    color: rgb(19, 201, 140);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+.srt h2{
+    text-transform: uppercase;
+    padding-left: 70px;
+    color: rgb(22, 226, 158);
+
+}
+.srt1{
+    padding-left:70px ;
+    color: #4b3f3f;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.srt1 h4{
+   
+    color: rgb(17, 175, 122);
+    font-size: 20px;
+    
+}
+.srt2{
+    padding-left:70px ;
+    color: #4b3f3f;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.srt2 h4{
+   
+    color: rgb(17, 175, 122);
+    font-size: 20px;
+    
+}
+.srt3{
+    padding-left:70px ;
+    color: #4b3f3f;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.srt3 h4{
+   
+    color: rgb(17, 175, 122);
+    font-size: 20px;
+    
+}
+.srt4{
+    padding-left:70px ;
+    color: #4b3f3f;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.srt4 h4{
+   
+    color: rgb(17, 175, 122);
+    font-size: 20px;
+    
+}
+.srt5{
+    padding-left:70px ;
+    color: #4b3f3f;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.srt5 h4{
+   
+    color: rgb(17, 175, 122);
+    font-size: 20px;
+    
+}
+.srt6{
+   
+    color: #4b3f3f;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+.srt6 h1{
+    padding-left:70px ;
+    color: rgb(17, 156, 110);
+}
+.srt6 ul {
+    padding-left:90px ;
+}
+.srt10{
+    display: inline-flex;
+}
+.srt7{
+    padding: 70px;
+    width: 300px;
+    font-style: italic;
+
+}
+.srt8{
+    padding: 70px;
+    width: 300px;
+    font-style: italic;
+}
+.srt9{
+    padding: 70px;
+    width: 300px;
+    font-style: italic;
+}
+.foot{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(69, 77, 77);
+    
+
+}
+.foot a{
+    color: #fff8f8;
+    text-decoration: none;
+    text-decoration: blink;
+    
+    
+}
+.foot1{
+    text-align: right;
+    font-size: 30px;
+    color: aliceblue;
+    padding-right: 20px;
+    
+}
+.foot01{
+    color: #fff8f8;
+    text-align: center;
